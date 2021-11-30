@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class FunctionsWork : MonoBehaviour
 {
+    int val = 7;
     // Start is called before the first frame update
     void Start()
     {
-        
+        int newval = doubleval();
+        print(newval);
+
+        int newsum = sumval(5);
+        print(newsum);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    int doubleval()
+        {
+        return (val * 2);
+        }
+
+    int sumval(int variable)
+    {
+        return (variable + 10);
     }
 }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StatementsString : MonoBehaviour
 {
+    public string name;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,14 @@ public class StatementsString : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (name == "Ivan")
+        {
+            print("You're Ivan");
+        }
+
+    else
+        {
+            print("You're not Ivan");
+        }
     }
 }
