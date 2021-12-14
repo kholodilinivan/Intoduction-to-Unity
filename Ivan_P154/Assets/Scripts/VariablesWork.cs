@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class VariablesWork : MonoBehaviour
 {
-    int number = 5;
+    public int number = 5;
     float position = 5.1f;
     char letter = 'a';
     public string name;
@@ -15,7 +16,7 @@ public class VariablesWork : MonoBehaviour
     {
         print(number);
         print("position: " + position);
-        print(letter);
+        print("letter: " + letter);
     }
 
     // Update is called once per frame
